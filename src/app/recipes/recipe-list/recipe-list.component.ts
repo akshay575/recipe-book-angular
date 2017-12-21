@@ -8,8 +8,8 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('Test Recipe', 'Test Recipe Description', '/assets/img/wipro_logo.png'),
-    new Recipe('Test Recipe', 'Test Recipe Description', '/assets/img/wipro_logo.png')
+    new Recipe('Test Recipe', 'Test Recipe Description', '/assets/img/recipe.jpg'),
+    new Recipe('Test Recipe', 'Test Recipe Description', '/assets/img/recipe.jpg')
   ]
 
   constructor() { }
